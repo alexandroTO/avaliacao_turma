@@ -7,6 +7,8 @@ import Linguagem1 from './pages/linguagem1';
 import Linguagem2 from './pages/linguagem2';
 import ProjetoWeb from './pages/projetoWeb';
 import ProgramacaoWeb from './pages/programacaoWeb';
+import Login from './pages/login';
+import Relatorios from './pages/relatorios'
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -19,6 +21,8 @@ root.render(
         <Route path="/linguagem-tn2" element={<Linguagem2/>} />
         <Route path="/projeto-web" element={<ProjetoWeb/>} />
         <Route path="/programacao-web" element={<ProgramacaoWeb/>} />
+        <Route path="/admin/login" element={<Login/>} />
+        <Route path="/admin/relatorios" element={<Relatorios/>} />
       </Routes>
     </BrowserRouter>
   

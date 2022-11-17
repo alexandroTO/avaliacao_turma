@@ -17,7 +17,6 @@ export const Card = styled.div`
   @media (max-width: 768px) {
     width: 90%;
     margin-top: 45%;
-
     h3 {
       text-align: center;
       padding: 10px;
