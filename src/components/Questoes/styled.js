@@ -25,7 +25,7 @@ export const Card = styled.section`
   justify-content: center;
   align-items: center;
 
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 2rem;
   box-sizing: border-box;
