@@ -21,7 +21,7 @@ root.render(
         <Route path="/linguagem-tn2" element={<Linguagem2/>} />
         <Route path="/projeto-web" element={<ProjetoWeb/>} />
         <Route path="/programacao-web" element={<ProgramacaoWeb/>} />
-        <Route path="/admin/login" element={<Login/>} />
+        <Route path="/admin/" element={<Login/>} />
         <Route path="/admin/relatorios" element={<Relatorios/>} />
       </Routes>
     </BrowserRouter>
