@@ -25,7 +25,7 @@ const ChartQuest = (props) => {
     },[])
 
     return (
-        <div style={{background:'#fefefe', marginTop:'2rem',marginLeft:'2rem',marginRight:'2rem', padding:'2rem'}}>
+        <div style={{background:'#fefefe', marginTop:'2rem',marginLeft:'2rem',marginRight:'2rem', padding:'2rem', border:'1px solid #c9cdd3'}}>
             <h1>{props.titulo}</h1>
             <ResponsiveContainer width="100%" aspect={3}>
                 <AreaChart
@@ -44,7 +44,7 @@ const ChartQuest = (props) => {
                     <XAxis dataKey="nome" />
                     <YAxis domain={[0, 'dataMax+0.2']} />
                     <Tooltip />
-                    <Area type="monotone" dataKey="Respostas" stroke="#8884d8" fill="#8884d8" />
+                    <Area type="monotone" dataKey="Respostas" stroke={props.color} fill={props.color} />
                 </AreaChart>
             </ResponsiveContainer>
         </div>

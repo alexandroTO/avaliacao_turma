@@ -37,12 +37,7 @@ export const Card = styled.section`
     font-size: 1.3rem;
   }
 `;
-export const Number = styled.div`
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: -15px;
-`;
+
 export const Text = styled.p`
   display: flex;
   flex-direction: column;
@@ -110,7 +105,7 @@ export const Botao = styled.button`
   margin-bottom: 6rem;
   border-radius: 0.5rem;
   border: none;
-  background-color: #228cc8;
+  background-color: #3867d6;
   color: #fff;
   font-size: 1rem;
   @media (max-width: 768px) {

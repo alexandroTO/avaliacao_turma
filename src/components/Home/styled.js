@@ -36,7 +36,7 @@ export const Select = styled.select`
 `;
 
 export const Botao = styled.button`
-  background-color: #2e6166;
+  background-color: #3867d6;
   border: none;
   height: 3rem;
   width: 7rem;

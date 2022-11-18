@@ -30,7 +30,7 @@ export const Card = styled.div`
 
 `;
 export const Botao = styled.button`
-  background-color: #2e6166;
+  background-color: #3867d6;
   border: none;
   height: 2.5rem;
   width: 7rem;
