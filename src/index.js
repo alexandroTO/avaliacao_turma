@@ -9,6 +9,7 @@ import ProjetoWeb from './pages/projetoWeb';
 import ProgramacaoWeb from './pages/programacaoWeb';
 import Login from './pages/login';
 import Relatorios from './pages/relatorios'
+import Mensagens from './pages/mensagens'
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -23,6 +24,7 @@ root.render(
         <Route path="/programacao-web" element={<ProgramacaoWeb/>} />
         <Route path="/admin/" element={<Login/>} />
         <Route path="/admin/relatorios" element={<Relatorios/>} />
+        <Route path="/admin/mensagem" element={<Mensagens/>} />
       </Routes>
     </BrowserRouter>
   
